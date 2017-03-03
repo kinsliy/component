@@ -112,14 +112,5 @@
         align-items: center;
      }
 
-     @media screen and (min-width: 1500px){
-      	   #body >div >span{
-     	
-     	 font-size: 30px;
-         }
-         #body .bg span{
-         	 font-size: 26px;
-         }
-     }
-
+     
 </style>
