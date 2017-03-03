@@ -19,6 +19,36 @@
              <div><little></little></div>
              <div><next></next></div>
               <div><rong></rong></div>
+              <div><top></top></div>
+              <div><ptext></ptext></div>
+              <div><zlists></zlists></div>
+              <div class='slide'><slide></slide></div>
+              <div><ptitle></ptitle></div>
+              <div><work></work></div>
+
+              <div><st></st></div>
+              <div><loct></loct></div>
+               <div><check></check></div>
+              <div><record></record></div>
+            <div><bar></bar></div>
+            <div><title1></title1></div>
+            <div><checkImg></checkImg></div>
+            <div><perImg></perImg></div>
+            <div><personC></personC></div>
+            <div><appointment></appointment></div>
+            <div><dataL></dataL></div>
+            <div><dataP></dataP></div>
+             <div><dataC></dataC></div>
+             <div><dataA></dataA></div>
+              <div><package></package></div>
+              <div><product></product></div>
+              <div><productT></productT></div>
+              <div><repairL></repairL></div>
+              <div><repairI></repairI></div>
+              <div><appoint1></appoint1></div>
+              <div><appoint2></appoint2></div>
+              <div><aprment1></aprment1></div>
+              <div><fillI></fillI></div>
 	 	 </div>
 	 </div>
 </template>
@@ -38,7 +68,39 @@
   var guess =require('../../components/guess.vue');
   var little=require('../../components/little_comment.vue');
   var next=require('../../components/next.vue');
-  var text=require('../../components/text.vue')
+  var text=require('../../components/text.vue');
+  var top=require('../../components/top_img.vue');
+  var top_text=require('../../components/top_text.vue');
+  var zu_lists=require('../../components/zu_lists.vue');
+  var top_title=require('../../components/top_title.vue');
+  var work=require('../../components/work.vue');
+  var select=require('../../components/select.vue');
+  var slide=require('../../components/top_slide.vue');
+  var map=require('../../components/map.vue');
+  var check=require('../../components/check.vue');
+  var record_lists=require('../../components/record_lists.vue');
+  var bar=require('../../components/bar.vue');
+  var title=require('../../components/title.vue');
+  var check_img=require('../../components/check_img.vue');
+  var person_img=require('../../components/person_img.vue');
+  var person_content=require('../../components/person_content.vue');
+  var appointment=require('../../components/appointment.vue');
+  var data_left=require('../../components/data_left.vue');
+  var data_person=require('../../components/data_person.vue');
+  var data_change_password=require('../../components/data_change_password.vue');
+  var data_person_address=require('../../components/data_person_address.vue');
+  var package_lists=require('../../components/package_lists.vue');
+
+  import product_lists from '../../components/product_lists.vue';
+  import product_title from '../../components/product_title.vue';
+  import repair_lists from '../../components/repair_lists.vue';
+  import repair_info from '../../components/repair_info.vue';
+
+  import appointment1 from '../../components/appointment1.vue';
+
+  import appointment2 from '../../components/appointment2.vue';
+  import aprtment_manage1 from '../../components/aprtment_manage1.vue';
+  import fill_info_top from '../../components/fill_info_top.vue';
 module.exports={
 	  data:function(){
      	 	 return {
@@ -68,6 +130,35 @@ module.exports={
             little:little,
             next:next,
             rong:text,
+            top:top,
+            ptext:top_text,
+            zlists:zu_lists,
+            ptitle:top_title,
+            work:work,
+            st:select,
+            slide:slide,
+            loct:map,
+            check:check,
+            record:record_lists,
+            bar:bar,
+            title1:title,
+            checkImg:check_img,
+            perImg:person_img,
+            personC:person_content,
+            appointment:appointment,
+            dataL:data_left,
+            dataP:data_person,
+            dataC:data_change_password,
+            dataA:data_person_address,
+            package:package_lists,
+            product:product_lists,
+            productT:product_title,
+            repairL:repair_lists,
+            repairI:repair_info,
+            appoint1:appointment1,
+            appoint2:appointment2,
+            aprment1:aprtment_manage1,
+            fillI:fill_info_top,
          }
 
 }
@@ -87,6 +178,7 @@ module.exports={
      .bread{
        background-color: #f8f8f8
      }
+
 	 #body1{
          
 	 	 width: 100%;
@@ -117,6 +209,8 @@ module.exports={
        
      }
      .right >div{
+       width: 100%;
+       height: auto;
        margin-bottom: 35px;
      }
 
