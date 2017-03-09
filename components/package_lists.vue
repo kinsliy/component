@@ -39,7 +39,7 @@
 
 <style scoped>
 	 .package_lists{
-	 	 width: 100%;
+	 	 width: 760px;
 	 	 height: auto;
 	 	 display: flex;
          flex-wrap: wrap;
